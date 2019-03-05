@@ -48,6 +48,10 @@ var options = {
 PhotoViewer.show('http://my_site.com/my_image.jpg', 'Optional Title', options);
 ```
 
+### CAUTION
+> An error will be thrown if the first argument - the URL, has an encoded characters like: %20.
+> Example: image url (https://example.com/images/123%20product1.png)
+
 ### Versions  
 (1.0.2) Removed Podfile and the dependency  
 (1.1.0)
